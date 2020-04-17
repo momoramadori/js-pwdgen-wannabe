@@ -1,4 +1,4 @@
-//inserire il nome
+// Inserire il nome
 var nome_utente = prompt("Nome");
 
 // Inserire il cognome
@@ -7,12 +7,14 @@ var cognome_utente = prompt("Cognome");
 // Inserire il colore preferito
 var colore_preferito = prompt("Colore Preferito");
 
-// visualizzare la password generata
-var password_generator = (nome_utente + cognome_utente + colore_preferito + "20");
+// Creare la password concatenando i file e aggiungendo un numero
+var password_generator = (nome_utente + cognome_utente + colore_preferito + 20);
 document.getElementById('password').innerHTML = password_generator;
+
+// visualizzare la password generata assieme al testo di h1
 document.getElementById('pwdgen').setAttribute("class", "visible");
 
-//cambiare sfondo in base al colore inserito
+//cambiare sfondo in base al colore_preferito inserito dall'utente
 if (colore_preferito == "Rosso" || colore_preferito == "rosso") {
     document.getElementById("container").setAttribute("class", "red")
 } else if ( colore_preferito == "Blu" || colore_preferito == "blu") {
