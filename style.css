@@ -27,7 +27,6 @@
 
 #container.other {
     background-color: black;
-
 }
 
 #box {
@@ -62,9 +61,6 @@
     100% { color: black; }
 }
 
-#pre-pwdgen.invisible {
-    display: none;
-}
 
 @media (min-width:320px) {
 
@@ -72,6 +68,7 @@
         font-size: 18px;
     }
 }
+
 @media (min-width:768px) {
 
     #pwdgen {
