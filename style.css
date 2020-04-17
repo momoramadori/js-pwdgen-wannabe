@@ -51,6 +51,15 @@
 
 #pwdgen.visible {
     display: block;
+    color: white;
+    animation-name: colore-testo;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes colore-testo {
+    0% { color: white; }
+    100% { color: black; }
 }
 
 #pre-pwdgen.invisible {
