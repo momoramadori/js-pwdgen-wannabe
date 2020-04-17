@@ -30,25 +30,10 @@ body {
 }
 
 #box h1 {
-    width: 80%;
     box-shadow: inset 2px 2px 20px grey;
     background: white;
     border-radius: 40px;
     padding: 20px;
-}
-
-#img-container {
-    width: 80%;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-img {
-    border-radius: 40px;
-    width: 80%;
-    margin: 0 auto;
-    object-fit: contain;
 }
 
 #pwdgen {
