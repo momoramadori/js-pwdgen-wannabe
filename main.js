@@ -21,6 +21,8 @@ if (colore_preferito == "Rosso" || colore_preferito == "rosso") {
     document.getElementById("container").setAttribute("class", "blue")
 } else if  (colore_preferito == "Verde" || colore_preferito == "verde"){
     document.getElementById("container").setAttribute("class", "green")
+} else if  (colore_preferito == "Giallo" || colore_preferito == "giallo"){
+    document.getElementById("container").setAttribute("class", "yellow")
 } else {
     document.getElementById("container").setAttribute("class", "other")
 }

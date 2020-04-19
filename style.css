@@ -25,6 +25,10 @@
     background-color: green;
 }
 
+#container.yellow {
+    background-color: yellow;
+}
+
 #container.other {
     background-color: grey;
 }
