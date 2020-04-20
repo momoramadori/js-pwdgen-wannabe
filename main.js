@@ -1,11 +1,11 @@
 // Inserire il nome
-var nome_utente = prompt("Nome");
+var nome_utente = prompt("Nome","Mario");
 
 // Inserire il cognome
-var cognome_utente = prompt("Cognome");
+var cognome_utente = prompt("Cognome","Rossi");
 
 // Inserire il colore preferito
-var colore_preferito = prompt("Colore Preferito");
+var colore_preferito = prompt("Colore Preferito","Giallo");
 
 // Creare la password concatenando i file e aggiungendo un numero
 var password_generator = (nome_utente + cognome_utente + colore_preferito + 20);
